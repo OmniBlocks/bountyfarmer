@@ -1,0 +1,25 @@
+{
+  "name": "@omniblocks/linux-emulator",
+  "version": "1.0.0",
+  "description": "Linux userspace and system emulator for OmniBlocks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "rm -rf dist && tsc && node --test dist/test/emulator.test.js"
+  },
+  "keywords": [
+    "omniblocks",
+    "linux",
+    "emulator",
+    "posix",
+    "turbowarp",
+    "scratch"
+  ],
+  "author": "OmniBlocks Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
