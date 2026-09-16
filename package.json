@@ -1,0 +1,28 @@
+{
+  "name": "@omniblocks/hello-world",
+  "version": "1.0.0",
+  "description": "Hello World implementation and OmniBlocks extension",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "hello-world": "./index.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "rm -rf dist && tsc && node --test dist/test/*.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "omniblocks",
+    "hello-world",
+    "turbowarp",
+    "scratch",
+    "javascript"
+  ],
+  "author": "OmniBlocks Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
