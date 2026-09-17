@@ -23,7 +23,7 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     'A BEEPBOX FORK',
     'DOG ASSIST',
     'AI ASSIST',
-    'AGI ASSIST'
+    'AGI ASSIST',
     '[object Object]',
     'JAVASCRIPT 2',
     'PYTHON 4',
