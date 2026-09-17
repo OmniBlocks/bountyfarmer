@@ -1,0 +1,31 @@
+{
+  "name": "@omniblocks/universe-engine",
+  "version": "1.0.0",
+  "description": "Cosmological physics simulation engine and OmniBlocks extension for the Universe",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "universe-engine": "./index.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "rm -rf dist && tsc && node --test dist/test/*.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "omniblocks",
+    "universe",
+    "cosmology",
+    "physics",
+    "turbowarp",
+    "scratch",
+    "n-body",
+    "simulation"
+  ],
+  "author": "OmniBlocks Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
