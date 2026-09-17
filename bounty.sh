@@ -19,6 +19,7 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     'UNIVERSE 2',
     'MINECRAFT 2',
     'ROBLOX BUT LESS CREEPY',
+    'A SEARCH ENGINE',
     'A BEEPBOX FORK',
     'DOG ASSIST',
     'AI ASSIST',
@@ -26,7 +27,16 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     '[object Object]',
     'JAVASCRIPT 2',
     'PYTHON 4',
-    'ORKUT 2'
+    'ORKUT 2',
+    'BITCONNEEEEEEEEECT',
+    'SYSTEM64',
+    'WINDOWS 94',
+    'ANYTHING',
+    'KRITA INTEGRATION',
+    'BEEPBOX INTEGRATION,
+    'GIMP INTEGRATION',
+    'ETHEREUM INTEGRATION',
+    'BITCOIN INTEGRATION'
 ]))")
 
 MONEYZ=$(python3 -c "import random; print(random.randrange(9000000, 10000000))")
@@ -40,13 +50,13 @@ Have you ever wanted FREE money bucks??? 🤑💰 Of COURSE you do! Who wouldn\'
 
 If you want to win* \$$MONEYZ, all you have to do is implement **$FEATURE** in OmniBlocks.
 
-<sub>
-* Currency not decided yet. We may pay you in any method we deem feasible for us, including (at our option) software methods, or physical methods (including physical embrace). But who cares about that? Implement and get a bounty!
-</sub>
+Go on, make a pull request on GitHub! This is your task.
 
 How bountiful... BOUNTIES!™ 💸🤑
 
-Go on, make a pull request on GitHub! This is your task.
+<sub>
+* Currency not decided yet. We may pay you in any method we deem feasible for us, including (at our option) software methods, physical methods (including physical embrace). But who cares about that? Implement and get a bounty!
+</sub>
 
 ## Stats
 - 💰 Value: \$$MONEYZ
