@@ -1,1 +1,2 @@
-I dunno how to code. Generate a hello world for a bounty!
+// This file is not relevant to the bounty, but here's a "Hello, World!" in JavaScript:
+console.log("Hello, World!");
