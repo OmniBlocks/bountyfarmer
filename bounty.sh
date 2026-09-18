@@ -33,7 +33,7 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     'WINDOWS 94',
     'ANYTHING',
     'KRITA INTEGRATION',
-    'BEEPBOX INTEGRATION,
+    'BEEPBOX INTEGRATION',
     'GIMP INTEGRATION',
     'ETHEREUM INTEGRATION',
     'BITCOIN INTEGRATION'
