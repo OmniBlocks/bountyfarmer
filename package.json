@@ -1,0 +1,21 @@
+{
+  "name": "bountyfarmer",
+  "version": "1.0.0",
+  "description": "OmniBlocks Boxy Bitcoin wallet, Alpine Linux resource guard, and bounty stipulation evaluator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/issue_30.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "omniblocks",
+    "boxy",
+    "bitcoin",
+    "wallet",
+    "secp256k1",
+    "bountyfarmer"
+  ],
+  "author": "s6pa1rta3n-lab",
+  "license": "MIT"
+}
