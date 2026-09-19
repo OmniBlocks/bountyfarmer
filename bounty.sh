@@ -4,6 +4,7 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     'A HALF LIFE 3 MODE',
     'A LINUX EMULATOR',
     'A SaaS MODE',
+    'A BOUNTY MODE',
     'THE UNIVERSE',
     'AN AI',
     'AGI',
@@ -22,6 +23,7 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     'ROBLOX BUT LESS CREEPY',
     'A SEARCH ENGINE',
     'A BOOPBEX FORK',
+    'THE METAVERSE',
     'DOG ASSIST',
     'AI ASSIST',
     'AGI ASSIST',
@@ -32,13 +34,15 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     'BITCONNEEEEEEEEECT',
     'CRYPTO',
     'SYSTEM64',
-    'WINDOWS 94',
+    'WINDOWS 12',
     'ANYTHING',
     'KRITA INTEGRATION',
     'BEEPBOX INTEGRATION',
     'GIMP INTEGRATION',
     'ETHEREUM INTEGRATION',
-    'BITCOIN INTEGRATION'
+    'BITCOIN INTEGRATION',
+    'SOME BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES',
+    'A METAVERSE CRYPTO BOUNTY BLOCKCHAIN'
 ]))")
 
 MONEYZ=$(python3 -c "import random; print(random.randrange(9000000, 10000000))")
