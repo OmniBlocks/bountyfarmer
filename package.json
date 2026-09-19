@@ -1,0 +1,30 @@
+{
+  "name": "@omniblocks/boxy-saas",
+  "version": "1.0.0",
+  "description": "Multi-tenant SaaS platform, API gateway, metering, and OmniBlocks extension for Boxy",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "boxy-saas": "./index.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "rm -rf dist && tsc && node --test dist/test/*.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "omniblocks",
+    "boxy",
+    "saas",
+    "turbowarp",
+    "scratch",
+    "webhooks",
+    "metering"
+  ],
+  "author": "OmniBlocks Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
