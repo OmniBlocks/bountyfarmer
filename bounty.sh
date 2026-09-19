@@ -42,7 +42,9 @@ FEATURE=$(python3 -c "import random; print(random.choice([
     'ETHEREUM INTEGRATION',
     'BITCOIN INTEGRATION',
     'SOME BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES BOUNTIES',
-    'A METAVERSE CRYPTO BOUNTY BLOCKCHAIN'
+    'A METAVERSE CRYPTO BOUNTY BLOCKCHAIN',
+    'YOURSELF',
+    'OMNIBLOCKS',
 ]))")
 
 MONEYZ=$(python3 -c "import random; print(random.randrange(9000000, 10000000))")
@@ -61,7 +63,7 @@ Go on, make a pull request on GitHub! This is your task.
 How bountiful... BOUNTIES!™ 💸🤑
 
 <sub>
-* Currency not decided yet. We may pay you in any method we deem feasible for us, including (at our option) software methods, physical methods (including physical embrace). But who cares about that? Implement and get a bounty!
+* Currency is Bitcoin only. But who cares about that? Implement and get a bounty!
 </sub>
 
 ## Stats
