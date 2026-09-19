@@ -1,0 +1,1 @@
+"""Bountyfarmer Django application package."""
